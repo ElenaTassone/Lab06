@@ -16,8 +16,14 @@ public class TestDAO {
 		for (Rilevamento r : list) {
 			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
 		}
-		
-//		System.out.println(dao.getAllRilevamentiLocalitaMese(1, "Genova"));
+//		
+//		
+//		List<Rilevamento> list2 = dao.getAllRilevamentiLocalitaMese(1,"Torino");
+//
+//		// STAMPA: localita, giorno, mese, anno, umidita (%)
+//		for (Rilevamento r : list2) {
+//			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
+		System.out.println(dao.getAllRilevamentiLocalitaMese(12, "Genova"));
 //		System.out.println(dao.getAvgRilevamentiLocalitaMese(1, "Genova"));
 //		
 //		System.out.println(dao.getAllRilevamentiLocalitaMese(5, "Milano"));
